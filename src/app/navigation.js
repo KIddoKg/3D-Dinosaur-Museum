@@ -377,7 +377,7 @@ export default class Navigation {
     this.app.camera.moveTo(project.model);
     gsap.to(modelRef.rotation, {
       y: Math.PI * project.rotationMultiplier,
-      duration: 22.0,
+      duration: 10.0,
       ease: "power2.inOut",
     });
 
