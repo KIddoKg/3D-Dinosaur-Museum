@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dax7yvh.css">
+    <title>3D Dinosaur Museum</title>
+</head>
+<body>
+    <canvas id="webglcanvas"></canvas>
+    <div class="splash">
+        <div class="logo">
+        </div>
+        <div class="headline">
+            <h1>3D Dinosaur Museum</h1>
+        </div>
+        <div class="subhead">
+            <h2>360 degree view of Dinosaurs,<br> Provide Information &<br> Interactive Visualization</h2>
+        </div>
+        <div class="progress">
+            <div class="bar"></div>
+            Loading.
+        </div>
+        
+    </div> <!-- splash -->
+    <div class="mobilenav main hidden">
+        <div class="mainmenuitem" id="menufirst">
+          <span class="label">About</span>
+        </div>
+        <div class="mainmenuitem" id="menusecond">
+          <span class="label">Late Creta</span>
+        </div>
+        <div class="mainmenuitem" id="menuthird">
+          <span class="label">Early Creta</span>
+        </div>
+        <div class="mainmenuitem" id="menufour">
+            <span class="label">Trias and Jura</span>
+          </div>
+        <svg viewBox="0 0 100 80" width="30" height="30" class="burger">
+          <rect width="100" height="15" fill="#ffffff"></rect>
+          <rect y="30" width="100" height="15" fill="#ffffff"></rect>
+          <rect y="60" width="100" height="15" fill="#ffffff"></rect>
+        </svg>
+    </div> <!-- mobile nav -->
+    <div class="aboutsection hidden">
+        <h3>About + Contact</h3>
+        <div class="info inactive">
+            <h4>3D Dinosaur Museum</h4>
+            <div class="bodytext">
+                <p>This is a website that provides people with knowledge about dinosaurs. People can observe the dinosaurs with detailed 3D models and videos </p>
+                <p>This project is suitable for children who are just starting to access new knowledge, it will help children easily promote their rich imagination.</p>
+                <p>This project can be expanded to include more varieties of dinosaurs, or it can be used as the basis for projects about animals, objects, traffic, etc. The potential for growth is very great.</p>
+            </div>
+            <div class="button" id="infoclose"><span class="arrow">&lt;</span> Back to Gallery View</div>
+        </div> <!-- info -->
+        <div class="studio inactive">
+            <h4>Project Computer Graphics</h4>
+        </br>
+    </br>
+</br>
+</br>
+            <div class="bodytext">
+                    <h5>Made by :</h5>
+                <ul>
+                    <li>Tran Thi Huynh Nhu</li>
+                    <li>Nguyen Vo Thanh Tam</li>
+                    <li>Nguyen Quoc Bao</li>
+                </ul>
+            </br>
+        </br>
+    </br>
+</br>
+                <p>
+                    International University</br>
+                </p>
+            </div>
+            <div class="button" id="studioclose"><span class="arrow">&lt;</span> Back to Gallery View</div>
+        </div> <!-- studio -->
+    </div> <!-- about section-->
+    <div class="projectssection hidden">
+        <h3>Projects</h3>
+        <div class="featuredprojectstxt">
+            <h4>Featured Projects</h4>
+        </div> <!-- featured -->
+        <div class="moreprojectstxt">
+            <h4>More Projects</h4>
+        </div> <!-- more -->
+    </div> <!-- projects-->
+    <div class="mainmenu inactive" id="menulab"> <div class="label">Early Creta</div></div>
+    <div class="mainmenu inactive" id="menuwork"> <div class="label">Late Creta</div></div>
+    <div class="mainmenu inactive" id="menuabout"> <div class="label">About</div></div>
+    <div class="mainmenu inactive" id="menudone"> <div class="label">Trias and Jura</div></div>
+</body>
+</html>

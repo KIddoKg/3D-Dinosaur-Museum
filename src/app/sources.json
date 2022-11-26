@@ -1,0 +1,327 @@
+[
+  {
+    "name": "DoubleDecker",
+    "type": "gltf",
+    "path": "./environment/doubledecker.glb"
+  },
+
+  {
+    "name": "Saichania",
+    "type": "gltf",
+    "path": "./projectmodels/Saichania.glb"
+  },
+  {
+    "name": "SaichaniaDiffuse",
+    "type": "texture",
+    "path": "./textures/saichaniadiff.jpg"
+  },
+  {
+    "name": "Spinosaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Spinosaurus.glb"
+  },
+  {
+    "name": "SpinosaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/spinosaurusdiff.png"
+  },
+  {
+    "name": "Parasaurolophus",
+    "type": "gltf",
+    "path": "./projectmodels/Parasaurolophus.glb"
+  },
+  {
+    "name": "ParasaurolophusDiffuse",
+    "type": "texture",
+    "path": "./textures/parasaurolophusdiff.png"
+  },
+  {
+    "name": "Velociraptor",
+    "type": "gltf",
+    "path": "./projectmodels/Velociraptor.glb"
+  },
+  {
+    "name": "VelociraptorDiffuse",
+    "type": "texture",
+    "path": "./textures/velociraptordiff.png"
+  },
+  {
+    "name": "Giganotosaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Giganotosaurus.glb"
+  },
+  {
+    "name": "GiganotosaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/giganotosaurusdiff.png"
+  },
+  {
+    "name": "Therizinosaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Therizinosaurus.glb"
+  },
+  {
+    "name": "TherizinosaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/therizinosaurusdiff.png"
+  },
+  {
+    "name": "Kronosaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Kronosaurus.glb"
+  },
+  {
+    "name": "KronosaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/kronosaurusdiff.png"
+  },
+  {
+    "name": "Mosasaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Mosasaurus.glb"
+  },
+  {
+    "name": "MosasaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/mosasaurusdiff.png"
+  },
+  {
+    "name": "Baryonyx",
+    "type": "gltf",
+    "path": "./projectmodels/Baryonyx.glb"
+  },
+  {
+    "name": "BaryonyxDiffuse",
+    "type": "texture",
+    "path": "./textures/baryonyxdiff.png"
+  },
+  {
+    "name": "Pterodactyl",
+    "type": "gltf",
+    "path": "./projectmodels/Pterodactyl.glb"
+  },
+  {
+    "name": "PterodactylDiffuse",
+    "type": "texture",
+    "path": "./textures/pterodactyldiff.png"
+  },
+  {
+    "name": "Triceratops",
+    "type": "gltf",
+    "path": "./projectmodels/Triceratops.glb"
+  },
+  {
+    "name": "TriceratopsDiffuse",
+    "type": "texture",
+    "path": "./textures/triceratopsdiff.png"
+  },
+  {
+    "name": "Tyrannosaurusrex",
+    "type": "gltf",
+    "path": "./projectmodels/Tyrannosaurusrex.glb"
+  },
+  {
+    "name": "TyrannosaurusrexDiffuse",
+    "type": "texture",
+    "path": "./textures/tyrannosaurusrexdiff.png"
+  },
+  {
+    "name": "Coelophysis",
+    "type": "gltf",
+    "path": "./projectmodels/Coelophysis.glb"
+  },
+  {
+    "name": "CoelophysisDiffuse",
+    "type": "texture",
+    "path": "./textures/coelophysisdiff.png"
+  },
+  {
+    "name": "Pistosaur",
+    "type": "gltf",
+    "path": "./projectmodels/Pistosaur.glb"
+  },
+  {
+    "name": "PistosaurDiffuse",
+    "type": "texture",
+    "path": "./textures/pistosaurdiff.jpg"
+  },
+  {
+    "name": "Allosaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Allosaurus.glb"
+  },
+  {
+    "name": "AllosaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/allosaurusdiff.png"
+  },
+  {
+    "name": "Brachiosaurus",
+    "type": "gltf",
+    "path": "./projectmodels/Brachiosaurus.glb"
+  },
+  {
+    "name": "BrachiosaurusDiffuse",
+    "type": "texture",
+    "path": "./textures/brachiosaurusdiff.png"
+  },
+  {
+    "name": "Dimorphodon",
+    "type": "gltf",
+    "path": "./projectmodels/Dimorphodon.glb"
+  },
+  {
+    "name": "DimorphodonDiffuse",
+    "type": "texture",
+    "path": "./textures/dimorphodondiff.png"
+  },
+  {
+    "name": "Dryosauro",
+    "type": "gltf",
+    "path": "./projectmodels/Dryosauro.glb"
+  },
+  {
+    "name": "DryosauroDiffuse",
+    "type": "texture",
+    "path": "./textures/dryosaurodiff.png"
+  },
+
+  {
+    "name": "CircleRough",
+    "type": "texture",
+    "path": "./environment/textures/circlerough.png"
+  },
+  {
+    "name": "DeckDiffuse",
+    "type": "texture",
+    "path": "./environment/textures/deckdiff.jpg"
+  },
+  {
+    "name": "DeckMetal",
+    "type": "texture",
+    "path": "./environment/textures/deckmetal.png"
+  },
+  {
+    "name": "DeckNormal",
+    "type": "texture",
+    "path": "./environment/textures/decknormal.png"
+  },
+  {
+    "name": "DeckRough",
+    "type": "texture",
+    "path": "./environment/textures/deckrough.png"
+  },
+  {
+    "name": "LowerGalleryDiffuse",
+    "type": "texture",
+    "path": "./environment/textures/lowergallerydiff.jpg"
+  },
+  {
+    "name": "LowerGalleryMetal",
+    "type": "texture",
+    "path": "./environment/textures/lowergallerymetal.png"
+  },
+  {
+    "name": "LowerGalleryNormal",
+    "type": "texture",
+    "path": "./environment/textures/lowergallerynormal.png"
+  },
+  {
+    "name": "LowerGalleryRough",
+    "type": "texture",
+    "path": "./environment/textures/lowergalleryrough.png"
+  },
+  {
+    "name": "PedestalDiffuse",
+    "type": "texture",
+    "path": "./environment/textures/pedestaldiff.png"
+  },
+  {
+    "name": "PedestalRough",
+    "type": "texture",
+    "path": "./environment/textures/pedestalrough.png"
+  },
+  {
+    "name": "RectangleDiffuse",
+    "type": "texture",
+    "path": "./environment/textures/rectanglediff.png"
+  },
+  {
+    "name": "RectangleMetal",
+    "type": "texture",
+    "path": "./environment/textures/rectanglemetal.png"
+  },
+  {
+    "name": "RectangleNormal",
+    "type": "texture",
+    "path": "./environment/textures/rectanglenormal.png"
+  },
+  {
+    "name": "RectangleRough",
+    "type": "texture",
+    "path": "./environment/textures/rectanglerough.png"
+  },
+  {
+    "name": "RibbedNormal",
+    "type": "texture",
+    "path": "./environment/textures/ribbednormal.jpg"
+  },
+  {
+    "name": "StairsRough",
+    "type": "texture",
+    "path": "./environment/textures/stairsrough.png"
+  },
+  {
+    "name": "UpperGalleryDiffuse",
+    "type": "texture",
+    "path": "./environment/textures/uppergallerydiff.jpg"
+  },
+  {
+    "name": "UpperGalleryMetal",
+    "type": "texture",
+    "path": "./environment/textures/uppergallerymetal.png"
+  },
+  {
+    "name": "UpperGalleryNormal",
+    "type": "texture",
+    "path": "./environment/textures/uppergallerynormal.png"
+  },
+  {
+    "name": "UpperGalleryRough",
+    "type": "texture",
+    "path": "./environment/textures/uppergalleryrough.png"
+  },
+
+  {
+    "name": "Blockhead",
+    "type": "texture",
+    "path": "./environment/textures/blockhead.jpg"
+  },
+  {
+    "name": "BlockheadAlpha",
+    "type": "texture",
+    "path": "./environment/textures/blockheadalpha.png"
+  },
+  {
+    "name": "Swatch",
+    "type": "texture",
+    "path": "./environment/textures/swatch.jpg"
+  },
+  {
+    "name": "SwatchAlpha",
+    "type": "texture",
+    "path": "./environment/textures/swatchalpha.png"
+  },
+  {
+    "name": "TokyoHDRI",
+    "type": "cubeTexture",
+    "path": [
+      "./environment/cubemap/px.jpg",
+      "./environment/cubemap/nx.jpg",
+      "./environment/cubemap/py.jpg",
+      "./environment/cubemap/ny.jpg",
+      "./environment/cubemap/pz.jpg",
+      "./environment/cubemap/nz.jpg"
+    ]
+  }
+]
