@@ -11,16 +11,10 @@ export default class Environment {
 
   addLights() {
     const pointLightA = new THREE.SpotLight(0xffffff, 10, 50, Math.PI);
-    // const pointLightB = new THREE.SpotLight(0xffffff, 2, 50, Math.PI);
-    // const pointLightC = new THREE.SpotLight(0xffffff, 2, 50, Math.PI);
     const pointLightD = new THREE.SpotLight(0xffffff, 10, 50, Math.PI);
     const pointLightE = new THREE.SpotLight(0xffffff, 10, 50, Math.PI);
-
-    // const pointLightA = new THREE.PointLight(0xffffff, 300, 50, 2);
     const pointLightB = new THREE.PointLight(0xffffff, 300, 50, 2);
     const pointLightC = new THREE.PointLight(0xffffff, 50, 15, 2);
-    // const pointLightD = new THREE.PointLight(0xffffff, 50, 20, 2);
-    // const pointLightE = new THREE.PointLight(0xffffff, 10, 50, Math.PI);
 
     // pointLightA.castShadow = true;
     pointLightB.castShadow = true;
@@ -44,8 +38,8 @@ export default class Environment {
     pointLightD.shadow.radius = 5;
     pointLightE.shadow.radius = 5;
 
-    pointLightA.position.set(15, 15, 10);
-    pointLightB.position.set(3, 4, 3);
+    pointLightA.position.set(15, 15, 50);
+    pointLightB.position.set(3, 4, 30);
     pointLightC.position.set(6, 9, 1);
     pointLightD.position.set(7, 7, -5);
     pointLightE.position.set(8, 14, 8);
@@ -55,17 +49,8 @@ export default class Environment {
 
     HightStripLightA.lookAt(-4.75, 10, 8);
     const UpperStripLightA = new THREE.RectAreaLight(0xffffff, 5, 16, 0.15); // 5, 16, 0.15
-    // const UpperStripLightB = new THREE.RectAreaLight(0xffffff, 5, 16, .15);
-    // const UpperStripLightC = new THREE.RectAreaLight(0xffffff, 0, 0, 0); // 2, 1, 3.8
-    // const UpperStripLightD = new THREE.RectAreaLight(0xffffff, 0, 0, 0); // 2, 1, 3.8)
-    UpperStripLightA.position.set(-3, 8.65, 1); //-4.76, 8.65, 8
-    // UpperStripLightB.position.set(-4.76, 4.65, 8);
-    // UpperStripLightC.position.set(0, 0, 0); //-4.76, 6.75, 15.8
-    // UpperStripLightD.position.set(0, 0, 0); //-4.76, 6.75, 0.1
+
     UpperStripLightA.lookAt(-4.75, 0, 1);
-    // UpperStripLightB.lookAt(-4.75, 10, 8);
-    // UpperStripLightC.lookAt(-4.75, 6.75, 0);
-    // UpperStripLightD.lookAt(-4.75, 6.75, 15.8);
 
     const LowerStripLightA = new THREE.RectAreaLight(0xffffff, 5, 16, 0.15);
     LowerStripLightA.position.set(-2, 4.2, -5);
@@ -74,25 +59,19 @@ export default class Environment {
 
     this.app.scene.add(
       // pointLightA,
-      // pointLightB,
+      pointLightB,
       pointLightC,
       pointLightD,
       pointLightE,
       UpperStripLightA,
-      // UpperStripLightB,
-      // UpperStripLightC,
-      // UpperStripLightD,
       LowerStripLightA,
       HightStripLightA
-      // LowerStripLightB,
-      // LowerStripLightC,
-      // LowerStripLightD
     );
   }
 
   processStructure() {
-    let doubleDecker = new THREE.Object3D();
-    doubleDecker.matrixAutoUpdate = false;
+    let thirdDecker = new THREE.Object3D();
+    thirdDecker.matrixAutoUpdate = false;
 
     let parameters;
     let shadow = true;
@@ -100,7 +79,7 @@ export default class Environment {
 
     const whiteMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
 
-    this.app.loaders.items.DoubleDecker.scene.children.forEach(
+    this.app.loaders.items.ThirdDecker.scene.children.forEach(
       (importedMesh) => {
         switch (importedMesh.name) {
           case "LowerGallery":
@@ -133,11 +112,6 @@ export default class Environment {
 
           case "UpperGallery":
             parameters = {
-              // map: this.app.loaders.items.UpperGalleryDiffuse,
-              // metalnessMap: this.app.loaders.items.UpperGalleryMetal,
-              // normalMap: this.app.loaders.items.UpperGalleryNormal,
-              // roughnessMap: this.app.loaders.items.UpperGalleryRough,
-              // metalness: 1,
               map: this.app.loaders.items.LowerGalleryDiffuse,
               metalnessMap: this.app.loaders.items.LowerGalleryMetal,
               normalMap: this.app.loaders.items.LowerGalleryNormal,
@@ -333,7 +307,7 @@ export default class Environment {
             console.log(importedMesh.name);
             break;
         }
-        parameters.envMap = this.app.loaders.items.TokyoHDRI;
+
         parameters.envMapIntensity = 0.25;
 
         importedMesh.castShadow = shadow;
@@ -353,11 +327,11 @@ export default class Environment {
         } else {
           importedMesh.material = new THREE.MeshStandardMaterial(parameters);
         }
-        doubleDecker.add(importedMesh.clone());
+        thirdDecker.add(importedMesh.clone());
       }
     );
 
-    this.app.scene.add(doubleDecker);
+    this.app.scene.add(thirdDecker);
     this.app.renderer.instance.compile(
       this.app.scene,
       this.app.camera.instance

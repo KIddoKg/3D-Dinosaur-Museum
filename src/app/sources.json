@@ -1,8 +1,8 @@
 [
   {
-    "name": "DoubleDecker",
+    "name": "ThirdDecker",
     "type": "gltf",
-    "path": "./environment/doubledecker.glb"
+    "path": "./environment/thirddecker.glb"
   },
 
   {
@@ -311,17 +311,5 @@
     "name": "SwatchAlpha",
     "type": "texture",
     "path": "./environment/textures/swatchalpha.png"
-  },
-  {
-    "name": "TokyoHDRI",
-    "type": "cubeTexture",
-    "path": [
-      "./environment/cubemap/px.jpg",
-      "./environment/cubemap/nx.jpg",
-      "./environment/cubemap/py.jpg",
-      "./environment/cubemap/ny.jpg",
-      "./environment/cubemap/pz.jpg",
-      "./environment/cubemap/nz.jpg"
-    ]
   }
 ]

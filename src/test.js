@@ -1,20 +1,14 @@
 import App from "./app/app.js";
 import featuredProjects from "./featured.json";
 
-// parse project JSON into HTML for SEO:
-
 const featuredProjectSection = document.querySelector(".featuredprojectstxt");
 
 featuredProjects.forEach(function (each) {
   PopulateProjetText(each, featuredProjectSection);
 });
 
-// Instantiate 3D application
-
 const webGLcanvas = document.getElementById("webglcanvas");
-const app = new App(webGLcanvas); // TURN OFF FOR TESTING MOBILE LOADING/SPLASH
-
-// disables mobile overscroll
+const app = new App(webGLcanvas);
 
 document.body.addEventListener(
   "touchmove",

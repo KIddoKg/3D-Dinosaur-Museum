@@ -317,12 +317,6 @@ export default class Camera {
     this.controls.target.set(3, 34, 6);
     this.controls.enableDamping = true;
     this.controls.enabled = false;
-    // this.controls.enableZoom = false;
-    // this.controls.enablePan = false;
-    // this.controls.minAzimuthAngle = 0.65;
-    // this.controls.maxAzimuthAngle = 2.5;
-    // this.controls.minPolarAngle = 1.4;
-    // this.controls.maxPolarAngle = 1.64;
   }
 
   resize() {

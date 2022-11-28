@@ -45,7 +45,6 @@ export default class DisplayMeshes {
         projectModel = this.app.loaders.items[project.model].scene.children[0];
 
         projectModel.material = new THREE.MeshPhongMaterial();
-        projectModel.material.envMap = this.app.loaders.items.TokyoHDRI;
         projectModel.material.envMapIntensity = 0.25;
         projectModel.material.reflectivity = 0.15;
         projectModel.material.side = THREE.DoubleSide;
